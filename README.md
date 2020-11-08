@@ -11,7 +11,7 @@ In the project directory, you can run:
 Runs the app in the development mode.\
 Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
 
-<img src="./captura.png" width="100%" height="auto"></img>
+<img src="captura.png" width="100%" height="auto"></img>
 
 The page will reload if you make edits.\
 You will also see any lint errors in the console.
