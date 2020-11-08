@@ -1,0 +1,193 @@
+.page {
+  background-image: url("./plumas.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: stretch;
+}
+
+#navbar {
+  width: 80vw;
+  margin-left: auto;
+  margin-right: auto;
+  flex: 0 1 auto;
+}
+
+.logo > a {
+  font-family: "Oswald", sans-serif;
+  font-size: 2rem;
+  text-decoration: none;
+  color: black;
+}
+
+.social {
+  display: flex;
+  justify-content: flex-end;
+  padding: 0.5rem 0;
+}
+
+.social i {
+  padding: 0.5rem;
+}
+
+.social i:hover {
+  color: violet;
+  background-color: white;
+  border-radius: 50%;
+  transition-duration: 0.5s;
+}
+
+.navigation {
+  display: flex;
+  justify-content: space-between;
+}
+
+.links {
+  font-family: "Oswald", sans-serif;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  list-style: none;
+}
+
+.links > li > a {
+  background-color: violet;
+  border-radius: 30px;
+  padding: 0.2rem 0.5rem;
+  margin: 0 0.8rem;
+  text-decoration: none;
+  color: black;
+  white-space: nowrap;
+}
+
+.links > li > a:hover {
+  background-color: deeppink;
+  color: white;
+  transition-duration: 0.5s;
+}
+
+.home {
+  flex: 1 1 auto;
+  display: flex;
+  width: 80vw;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.text {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+  padding-right: 3rem;
+}
+.text span {
+  font-size: 6vw;
+  font-family: "Oswald", sans-serif;
+}
+
+.btn-main {
+  padding: 1rem 3rem;
+  background-color: violet;
+  border-radius: 10px;
+  border: 0.2rem solid white;
+  color: white;
+  font-family: "Oswald", sans-serif;
+  font-size: 1rem;
+}
+
+.btn-main:hover {
+  background-color: deeppink;
+  transition-duration: 0.5s;
+  transform: scale(1.2, 1.2);
+}
+
+.btn-main:focus {
+  outline: none;
+}
+
+.image {
+  flex: 1;
+  display: flex;
+  justify-content: center;
+}
+
+.image img {
+  width: 100%;
+  height: auto;
+}
+
+/*
+hacer dropdown
+*/
+.dropdown {
+  position: relative;
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  border-radius: 10px;
+  z-index: 1;
+  min-width: 160px;
+  padding-top: 0.4rem;
+  background-color: white;
+}
+
+.dropdown-content li {
+  background-color: violet;
+  border-radius: 30px;
+  padding: 0.4rem 0.5rem 0.2rem 0.5rem;
+  margin: 0.1rem 0.8rem;
+  list-style: none;
+}
+
+.dropdown-content li:hover {
+  width: 130px;
+  background-color: deeppink;
+  color: white;
+  transition-duration: 0.5s;
+}
+
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+
+.dropdown-r {
+  position: relative;
+}
+
+.dropdown-content-r {
+  display: none;
+  position: absolute;
+  border-radius: 10px;
+  z-index: 1;
+  top: -10px;
+  left: 130px;
+  min-width: 160px;
+  padding-top: 0.4rem;
+  background-color: white;
+}
+
+.dropdown-content-r li {
+  background-color: violet;
+  border-radius: 30px;
+  padding: 0.4rem 0.5rem 0.2rem 0.5rem;
+  margin: 0.1rem 0.8rem;
+  list-style: none;
+}
+
+.dropdown-content-r li:hover {
+  width: 130px;
+  background-color: deeppink;
+  color: white;
+  transition-duration: 0.5s;
+}
+
+.dropdown-r:hover .dropdown-content-r {
+  display: block;
+}
